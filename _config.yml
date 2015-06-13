@@ -5,7 +5,7 @@ description: "博客网站测试"
 
 logo_location: "_favicon/site_log_32*32.png"
 
-#baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/jekyll_demo/" # the subpath of your site, e.g. /blog/
 #url: "" # the base hostname & protocol for your site
 
 # Build settings
@@ -17,3 +17,7 @@ highlighter: pygments
 
 #Other Global Configuration
 exclude: ['README.md']
+
+#启动分页机制，需要在html中写程序启动
+#paginate: 5					#5篇一分
+#paginate_path: "page:num"		#在/index.html中使用分页，定义为page:num，则第二页的路径将是/page2/index.html
