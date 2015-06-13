@@ -2,7 +2,7 @@
 title: Site Title
 email: somename@somedomain.com
 description: "Site Description"
-logo_location: "http://placehold.it/100x100&text=LOGO"
+logo_location: "./apple-touch-icon-180x180.png"
 
 #baseurl: "" # the subpath of your site, e.g. /blog/
 #url: "" # the base hostname & protocol for your site
