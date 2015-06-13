@@ -3,7 +3,7 @@ title: Pumpkin
 email: yananback@gmail.com
 description: "博客网站测试"
 
-logo_location: "/jekyll_demo/_favicon/site_log_32_32.png"
+logo_location: "/_favicon/site_log_32_32.png"
 
 baseurl: "/jekyll_demo" # the subpath of your site, e.g. /blog/
 #url: "" # the base hostname & protocol for your site
