@@ -1,7 +1,7 @@
 
 mainmenu:
   home:
-    url: "/"
+    url: "/jekyll_demo"
     text: "Home"
     icon_class: "fa-home"
   aboutme:
