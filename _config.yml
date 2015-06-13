@@ -3,7 +3,7 @@ title: Pumpkin
 email: yananback@gmail.com
 description: "博客网站测试"
 
-logo_location: "./_favicon/site_log_32*32.png"
+logo_location: "_favicon/site_log_32*32.png"
 
 #baseurl: "" # the subpath of your site, e.g. /blog/
 #url: "" # the base hostname & protocol for your site
