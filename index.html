@@ -15,7 +15,7 @@ date: 2014-10-19 23:51
 			</time>
 		  </small>
         </div>
-		<!--<div class="margin10">
+		<div class="margin10">
           <small>
             <i class="fa fa-tag"></i>
             {% for tag in post.tags %}
@@ -23,13 +23,13 @@ date: 2014-10-19 23:51
             {% endfor %}
           </small>
         </div>
-        {% if post.thumbnail %}
+        <!--{% if post.thumbnail %}
           <img src="{{post.thumbnail}}"
           alt="{{post.title}}"  class="pull-left img-responsive thumb margin10 img-thumbnail" />
         {% endif %}-->
-		<div class="margin10">
-        	<article class="excerpt">{{post.excerpt}}</article>
-        	<a class="pull-left marginBottom10" href="{{post.url | prepend: site.baseurl }}">继续阅读</a>
+        <div class="margin10">
+          <article class="excerpt">{{post.excerpt}}</article>
+          <a class="pull-left marginBottom10" href="{{post.url | prepend: site.baseurl }}">继续阅读</a>
         </div>
       </div>
     {% endfor %}
