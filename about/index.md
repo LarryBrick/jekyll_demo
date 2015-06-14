@@ -15,4 +15,4 @@ yananback@gmail.com
 
 ###Socail
 ![GitHub:]( http://github.com/larrybrick)
-!(新浪微博:] (http://weibo.com/lbrick)
+![新浪微博:] (http://weibo.com/lbrick)
