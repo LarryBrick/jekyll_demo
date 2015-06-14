@@ -63,7 +63,7 @@ body {
 /*blog stuff 线宽+上一单元距线距离*/
 .blog-short{
   border-bottom:1px solid #ddd;
-  padding-bottom:20px;
+  padding-bottom:23px;
 
 }
 .blog-short .excerpt{
