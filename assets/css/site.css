@@ -63,7 +63,7 @@ body {
 /*blog stuff */
 .blog-short{
   border-bottom:1px solid #ddd;
-  padding-bottom:30px;
+  padding-bottom:10px;
 
 }
 .blog-short .excerpt{
