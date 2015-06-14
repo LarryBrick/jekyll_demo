@@ -1,6 +1,6 @@
 ---
 layout:	page
-title:	About Me
+title:	关于
 date:	2015-06-13 23:30 
 ---
 
