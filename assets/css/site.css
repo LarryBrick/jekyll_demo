@@ -60,9 +60,9 @@ body {
    cursor: default;
 }
 
-/*blog stuff */
+/*blog stuff 线宽+上一单元距线距离*/
 .blog-short{
-  border-bottom:9px solid #ddd;
+  border-bottom:1px solid #ddd;
   padding-bottom:10px;
 
 }
