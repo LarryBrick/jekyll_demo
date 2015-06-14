@@ -17,5 +17,6 @@ date:	2015-06-13 23:30
 yananback@gmail.com
 
 ###Socail
-[GitHub:](http://github.com/larrybrick)
-[新浪微博:] (http://weibo.com/lbrick)
+---
+GitHub:[http://github.com/larrybrick](http://github.com/larrybrick)
+新浪微博:[http://weibo.com/lbrick](http://weibo.com/lbrick)
