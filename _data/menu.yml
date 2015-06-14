@@ -8,6 +8,3 @@ mainmenu:
     url: "/about"
     text: "关于"
     icon_class: "fa-info-circle"
-  categories:
-    url: "/categories.html"
-	text: "分类"
