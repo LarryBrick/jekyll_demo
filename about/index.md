@@ -10,7 +10,7 @@ date:	2015-06-13 23:30
 ---
 
 ### 兴趣
-读书 / 看电影 / 健身
+[读书 / 看电影 / 健身](http://www.douban.com/people/larrybrick/)
 
 ---
 
