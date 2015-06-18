@@ -14,12 +14,12 @@ published: true
 
 摘要显示：
 主页index.html中扫描：
-```html
+	html
 	<ul>
 	  {% for post in site.posts %}
 	    <li>
-		  <a href="{{ post.url }}">{{ post.title }}</a>
-		  {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+	 	  <a href="{{ post.url }}">{{ post.title }}</a>
+		    {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
 	    </li>
 	  {% endfor %}
 	</ul>
