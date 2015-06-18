@@ -17,7 +17,11 @@ published: true
 
 摘要显示：
 主页index.html中扫描：
-
+	
+	void main()
+	{
+		int a = 5;
+	}
 	<ul>
 	  {% for post in site.posts %}
 	    <li>
