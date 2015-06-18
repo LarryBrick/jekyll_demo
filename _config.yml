@@ -19,6 +19,7 @@ highlighter: pygments
 #Other Global Configuration
 exclude: ['README.md']
 
+
 #启动分页机制，需要在html中写程序启动
 #paginate: 5					#5篇一分
 #paginate_path: "page:num"		#在/index.html中使用分页，定义为page:num，则第二页的路径将是/page2/index.html
