@@ -15,7 +15,6 @@ published: true
 
 摘要显示：
 主页index.html中扫描：
-```html
 
 ** 问题 **：从网上拷贝一些文字，自己创建文件粘贴进去，这样的blog总是会在首页里显示全文，而我自己创建的blog，手动输入进去文字则只显示第一段，经过不断的删减，最后两个blog网页内容完全一致但还是一个现实全文，一个现实首段，这是个很大的问题。
 
@@ -23,7 +22,7 @@ published: true
 > If you don’t like the automatically-generated post excerpt, it can be explicitly overridden by adding an excerpt value to your post’s YAML Front Matter.Alternatively, you can choose to define a custom `excerpt_separator` in the post’s YAML front matter. 
 
 ```html
-	---
+>	---
 	excerpt_separator: <!--more-->
 	---
 	Excerpt
@@ -35,7 +34,7 @@ published: true
 > 如果你不想使用自动产生的blog摘要，你可以在blog的YAML中添加摘要分割标识来覆盖原来的机制。这里你可以在blog的YAML中定义一个`excerpt_separator`标签如下：
 
 ```html
-	---
+>	---
 	excerpt_separator: <!-- more -->
 	---
 	excerpt
