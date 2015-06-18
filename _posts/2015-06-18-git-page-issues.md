@@ -24,12 +24,12 @@ published: true
 
 > If you don’t like the automatically-generated post excerpt, it can be explicitly overridden by adding an excerpt value to your post’s YAML Front Matter.Alternatively, you can choose to define a custom `excerpt_separator` in the post’s YAML front matter. 
 ```html
----
-excerpt_separator: <!-- more -->
----
-Excerpt
-<!-- more -->
-Out-of-excerpt
+	- - -
+	excerpt_separator: <!-- more -->
+	---
+	Excerpt
+	<!-- more -->
+	out-of-excerpt
 
 > You can also set the excerpt_separator globally in your _config.yml configuration file.
 
