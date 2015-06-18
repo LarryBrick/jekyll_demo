@@ -2,8 +2,7 @@
 layout: post
 tags:   git-page 建站
 date:   2015-06-18 21:52
-thumbnail:
-title:  git-page-issues
+title:  本网站建设中所遇到到的问题及解决方法
 published: true
 ---
 
