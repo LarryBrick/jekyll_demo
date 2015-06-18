@@ -19,6 +19,9 @@ highlighter: pygments
 #Other Global Configuration
 exclude: ['README.md']
 
+#摘要现实分割线
+excerpt_separator: "<!-- more -->"
+
 
 #启动分页机制，需要在html中写程序启动
 #paginate: 5					#5篇一分
