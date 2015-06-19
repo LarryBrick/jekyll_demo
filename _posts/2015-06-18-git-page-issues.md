@@ -18,10 +18,6 @@ published: true
 摘要显示：
 主页index.html中扫描：
 
-	void main()
-	{
-		int a = 5;
-	}
 	`{% for post in site.posts %}`
 	`  <li>`
 	`  <a href="{{ post.url }}">{{ post.title }}</a>`
