@@ -18,7 +18,7 @@ published: true
 摘要显示：
 主页index.html中扫描：
 
-	`{% for post in site.posts %}`
+	{% for post in site.posts %}
 
 **问题**：从网上拷贝一些文字，自己创建文件粘贴进去，这样的blog总是会在首页里显示全文，而我自己创建的blog，手动输入进去文字则只显示第一段，经过不断的删减，最后两个blog网页内容完全一致但还是一个现实全文，一个现实首段，这是个很大的问题。
 
