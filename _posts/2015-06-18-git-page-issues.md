@@ -15,12 +15,9 @@ published: true
 
 ### **首页显示摘要问题**
 
-摘要显示：
-主页index.html中扫描：
+**问题:**每篇博客在主页上有个摘要的显示能够更好的辅助标题进行了解博客的内容，模板默认的摘要都是第一段，这是因为jekyll默认将摘要分割标识：`excerpt_separator`设置了换行，但是有些时候我们的博文可能是从其他位置拷贝过来，这样的换行可能就不是utf-8，摘要分割标识就无法找到换行标识来截取第一段。
 
-**问题**：从网上拷贝一些文字，自己创建文件粘贴进去，这样的blog总是会在首页里显示全文，而我自己创建的blog，手动输入进去文字则只显示第一段，经过不断的删减，最后两个blog网页内容完全一致但还是一个现实全文，一个现实首段，这是个很大的问题。
-
-查找[官网](http://jekyllrb.com/docs/posts/)可以看到:
+查找[官网](http://jekyllrb.com/docs/posts/)我们可以看到这样的例程:
 
 	---
 	excerpt_separator: <!-- more -->
@@ -31,13 +28,12 @@ published: true
 
 > You can also set the excerpt_separator globally in your _config.yml configuration file.
 
-> 如果你不想使用自动产生的blog摘要，你可以在blog的YAML中添加摘要分割标识来覆盖原来的机制。这里你可以在blog的YAML中定义一个`excerpt_separator`标签如下：
+翻译一些：如果你不想使用自动产生的blog摘要，你可以在blog的YAML中添加摘要分割标识来覆盖原来的机制。这里你可以在blog的YAML中定义一个`excerpt_separator`标签。
 
-	---
-	excerpt_separator: <!-- more -->
-	---
-	excerpt
-	<!-- more -->
-	out-of-excerpt
+你也可以在_config.yml配置文件中进行这样的定义。
 
-> 你也可以在_config.yml配置文件中进行这样的定义。
+这样我们就很清楚的知道，只要在_config.yml文件中或者在blog.md文件的头部添加`excerpt_separator`标签，然后博文中在摘要结束之后添加上标签的内容就可以完美的支持摘要的摘取功能，完全自定义化。
+
+### **博文中显示HTML代码问题**
+
+查看官网中有关代码的引用部分，所说的都是采用TAB缩进进行代码引用，而同样采用TAB缩进引用（显示）HTML代码时会发现HTML代码会直接执行，这个问题有待于解决。
