@@ -26,9 +26,9 @@ published: true
 	<!-- more -->
 	out-of-excerpt
 
-> You can also set the excerpt_separator globally in your _config.yml configuration file.
+	You can also set the excerpt_separator globally in your _config.yml configuration file.
 
-翻译一些：如果你不想使用自动产生的blog摘要，你可以在blog的YAML中添加摘要分割标识来覆盖原来的机制。这里你可以在blog的YAML中定义一个`excerpt_separator`标签。
+翻译：如果你不想使用自动产生的blog摘要，你可以在blog的YAML中添加摘要分割标识来覆盖原来的机制。这里你可以在blog的YAML中定义一个`excerpt_separator`标签。
 
 你也可以在_config.yml配置文件中进行这样的定义。
 
