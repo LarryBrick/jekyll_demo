@@ -29,7 +29,7 @@ date: 2014-10-19 23:51
         <label class="pull-left margin-left:10">作者：Pumpkin</label>
         <label class="pull-left margin-left:10">　　标签：</label>
         {% for tag in post.tags %}
-          <label>{{tag}}</label>
+          <label class="pull-left margin-left:10">>{{tag}}</label>
         {% endfor %}
         <a class="pull-right" href="{{post.url | prepend: site.baseurl }}">阅读全文...</a>
       </div>
