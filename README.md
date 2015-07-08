@@ -1,13 +1,14 @@
-# README #
+# README
 
-A simple blog template for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>.
+### 说明
 
-Uses:
-* Twitter Bootstrap 3.2.0
-* Font Awesome 4.2.0
+站在前人的肩膀上才能看得更远
 
+尽自己的努力打造git-pages
 
-Here is a <a href="http://itsrifat.github.io/rifyll/" target="_blank">Demo</a>
+A simple blog from the <a href="http://jekyllrb.com" target="_blank">Jekyll</a> template. 
+
+Here is a origin <a href="http://itsrifat.github.io/rifyll/" target="_blank">Demo</a>
 
 To get started:
 * Fork this repo
